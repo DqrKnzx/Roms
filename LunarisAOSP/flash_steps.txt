@@ -1,0 +1,25 @@
+¡¡To flash the ROM, you must use OrangeFox Recovery specified here.!!
+
+OrangeFox Recovery Official: https://orangefox.download/device/6574e52f7f9618c5be6930ab
+
+OrangeFox Recovery Unofficial: https://github.com/ymdzq/OrangeFox-Action-Builder/releases/tag/17353392959
+
+* Notes:
+- Firmware Incluided, !!Do not flash firmware¡¡
+- It’s recommended to flash the latest HyperOS build before installing this ROM.
+This step is optional, but skipping it may lead to bootloop.
+
+Flashing Instructions in OrangeFox:
+
+* Reboot to Recovery OrangeFox *
+
+* Clean Flash:
+- Wipe Dalvik, Cache, Metadata, Data
+- Flash ROM.zip
+- Format data
+- Reboot
+
+* Dirty Flash:
+- Wipe Dalvik, Cache
+- Flash ROM.zip
+- Reboot
