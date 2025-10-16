@@ -1,0 +1,13 @@
+Date - 15/10/2025
+=================
+- Enable get_module_version for hotword sound model config
+- Added powerhint and adapted it for Mondrian (Thanks @NextWorksGFX). 
+- Bluetooth: Fix connection issue with certain smartwatches
+- Enabled Bluetooth LE Audio
+- Update WFD system blobs from dada OS2.0.217.0.WOCMIXM
+
+Kernel:
+- Merge android12-5.10
+- Merge android12-5.10-lts
+- Merge KERNEL.PLATFORM.1.0.r1-19400-kernel.0
+- And more...

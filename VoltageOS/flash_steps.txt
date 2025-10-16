@@ -1,0 +1,40 @@
+¡¡To flash the ROM, you must use OrangeFox Recovery specified here.!!
+
+OrangeFox Recovery Official: https://orangefox.download/device/6574e52f7f9618c5be6930ab
+
+OrangeFox Recovery Unofficial: https://github.com/ymdzq/OrangeFox-Action-Builder/releases/tag/17353392959
+
+Gapps:
+
+- Bit Gapps: https://www.pling.com/p/2020746
+- Nik Gapps: https://sourceforge.net/projects/nikgapps/files/Releases/Android-16/
+- Mind The Gapps: https://github.com/MindTheGapps/16.0.0-arm64/releases
+
+* Notes:
+- Firmware Incluided, !!Do not flash firmware¡¡
+- It’s recommended to flash the latest HyperOS build before installing this ROM.
+This step is optional, but skipping it may lead to bootloop.
+
+Flashing Instructions in OrangeFox:
+
+* Reboot to Recovery OrangeFox *
+
+* Clean Flash:
+- Wipe Dalvik, Cache, Metadata, Data
+- Flash ROM.zip
+- Format data
+- Reboot Recovery
+- Flash Gapps
+- Reboot
+
+* Dirty Flash:
+- Wipe Dalvik, Cache
+- Flash ROM.zip
+- Flash Gapps
+- Reboot
+
+* You need to use a PC or OTG to transfer the Gapps.
+Or restart the system, and download it from the browser that has the same ROM built in :)
+
+* If the device or recovery allows it, you can flash the Gapps after flashing the ROM. 
+At the moment, it didn't allow me to do so, and I had to do it after format data.
